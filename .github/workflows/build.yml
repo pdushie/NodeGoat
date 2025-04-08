@@ -19,7 +19,7 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: https://7959-38-174-15-77.ngrok-free.app/
-          sonar-project-key:pdushie_NodeGoat_e110db6d-01bc-4b4d-87c6-ad1b09b7af6d
+          
           
       # If you wish to fail your job when the Quality Gate is red, uncomment the
       # following lines. This would typically be used to fail a deployment.
